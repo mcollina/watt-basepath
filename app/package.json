@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "dev": "wattpm dev",
+    "build": "wattpm build",
+    "start": "wattpm start"
+  },
+  "dependencies": {
+    "@platformatic/node": "^2.10.0",
+    "wattpm": "^2.10.0"
+  },
+  "workspaces": [
+    "app"
+  ]
+}
